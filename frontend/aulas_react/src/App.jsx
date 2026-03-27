@@ -18,6 +18,7 @@ function App() {
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/perfil/:nome" element={<Perfil />} />
                 <Route path="/notfound" element={<NotFound />} />
+                <Route path="/inicio" element={<Inicio />} />
                 <Route path="/detalhes" element={<Detalhes />} />
                 <Route path="/contato" element={<Contato />} />
                 <Route path="/filme/:id" element={<Filme />} />

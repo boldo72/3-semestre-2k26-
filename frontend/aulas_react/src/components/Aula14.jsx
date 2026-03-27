@@ -1,7 +1,7 @@
 import { estilos } from "../style/Estilos"
 import { Link, useNavigate } from "react-router-dom"
 const Aula14 = () => {
-    const navegate = useNavigate()
+    const Navigate = useNavigate()
 
 
     return (
@@ -21,6 +21,10 @@ const Aula14 = () => {
             <h3>navegando com o useNavigate</h3>
             <button onClick={() => Navigate('/perfil/boldo')}>BOLDO🏀</button>
             <button onClick={() => Navigate('/perfil/lipe')}>LIPE🏀</button>
+            <hr />
+            <Link to="/inicio" >inicio</Link>
+            <br />
+            <Link to="/filme/:id" >Filme</Link>
         </div>
     )
 }
